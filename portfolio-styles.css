@@ -1,4 +1,7 @@
 /* Styles for my portfolio */
+p, div, a, span {
+  font-family: Inconsolata;
+}
 .id-card-area {
   display: inline-block;
   width: 100%;
@@ -16,6 +19,23 @@
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.id-card .avatar {
+    max-width: 50%;
+    display: inline-block;
+
+}
 .id-card .avatar img {
-    max-width: 40%;
+    width: 100%;
+    border-radius: 50%;
+}
+.id-card .name {
+    font-size: xx-large;
+    font-weight: 600;
+}
+.id-card .login {
+    font-size: x-large;
+    font-weight: 600;
+}
+.id-card p {
+    font-size: large;
 }
