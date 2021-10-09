@@ -1,4 +1,21 @@
 /* Styles for my portfolio */
 .id-card-area {
   display: inline-block;
+  width: 100%;
+}
+.id-card {
+  display: inline-block;
+  width: 560px;
+  height: 850px;
+  border: 1px solid #cecece;
+  border-radius: 30px;
+  text-align: center;
+}
+.id-card .logo img {
+    max-width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.id-card .avatar img {
+    max-width: 40%;
 }
