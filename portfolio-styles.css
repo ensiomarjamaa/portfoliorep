@@ -2,14 +2,17 @@
 p, div, a, span {
   font-family: Inconsolata;
 }
-.id-card-area {
+.id-card.area {
+  display: inline-block;
+  max-width: 100%;
+  margin: 0 10%;
+}
+.id-card .wrapper {
+    width: 30%;
+}
+.id-card .inner {
   display: inline-block;
   width: 100%;
-}
-.id-card {
-  display: inline-block;
-  width: 560px;
-  height: 850px;
   border: 1px solid #cecece;
   border-radius: 30px;
   text-align: center;
